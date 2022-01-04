@@ -28,7 +28,6 @@ end
 @unprofitable_womens_apparel = Store.where("womens_apparel = true AND annual_revenue < 1000000")
 
 puts "-----"
-puts @unprofitable_womens_apparel.length
 
 j = 0
 while j < @unprofitable_womens_apparel.length
